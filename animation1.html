@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <style>
+            body{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                background-color: black;
+            }
+            .anim{
+                background-color: black;
+                /* width:30%;
+                height:62%; */
+                animation: animation .4s alternate infinite;
+            }
+
+             @keyframes animation{
+                0%,  {
+                    background-color:rgb(225, 56, 112);
+                    width: 10%;
+                height: 50%; 
+                }
+
+            
+             40%{
+                background-color: rgb(29, 109, 229); 
+                
+                
+             }
+             50%{
+                background-image: url(fuzzy-static-interference-screen-display-footage-087253321_prevstill.webp);
+                background-size:cover;
+                width: 20%;
+                height: 80%;
+                /* left:42%; */
+                opacity: 15%;
+                position:absolute;
+                
+             }
+             
+
+             60%, 100%{
+                background-image: url(d1f97c9161a2975cf850c026fe66bc8e.jpg);
+                background-size:contain;
+                width: 20%;
+                height: 80%;
+                opacity: 50%;
+                
+             }
+            }
+
+            
+        </style>
+    </head>
+    <body>
+    
+        
+        <div class="anim"></div>
+        
+    </body>
+</html>
